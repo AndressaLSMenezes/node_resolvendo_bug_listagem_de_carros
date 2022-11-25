@@ -1,13 +1,14 @@
 {
-  "name": "base_projeto_node",
+  "name": "node_resolvendo_bug_listagem_de_carros",
   "version": "1.0.0",
-  "main": "src/app.js",
+  "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "dev": "nodemon src/app.js"
+    "dev": "nodemon ./src/index.js"
   },
   "dependencies": {
-    "express": "^4.17.3"
+    "express": "^4.17.3",
+    "uuid": "^9.0.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.15",
